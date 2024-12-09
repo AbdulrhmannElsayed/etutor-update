@@ -1,0 +1,409 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: black;
+    width: 1920px;
+}
+
+:root {
+    --MYdark-warrning: #65390C;
+    --MYdark-green: #15711F;
+    --MYdark-move: #342F98;
+    --MYlight-white: #F5F7FA;
+    --MYlight-red: #FFF0F0;
+    --MYlight-orange: #FFEEE8;
+    --MYblack: #000000;
+    --MYgray: #1D2026;
+    --MYwhite: #FFFFFF;
+    --MYorange: #FF6636;
+    --MYlight-gray: #8C94A3;
+    --MYmove: #EBEBFF;
+    --MYgreen: #E1F7E3;
+    --MYwarnnig: #FFF2E5;
+    --fonts: url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+}
+
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #222;
+    padding: 10px 20px;
+    color: white;
+    position: relative;
+    width: 1920px;
+    height: 52px;
+}
+
+.navbar a {
+    color: #A1A5B3;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.navbar {
+    background-color:#1D2026; 
+    padding: 10px 20px;
+  }
+  
+  .menu a {
+    position: relative;
+    display: inline-block;
+    margin: 0 15px; 
+    padding: 10px 5px; 
+    text-decoration: none;
+    color: #A1A5B3; 
+    font-size: 16px;
+    transition: color 0.3s ease; 
+  }
+  
+  .menu a::before {
+    content: '';
+    position: absolute;
+    top: 0; 
+    left: 0;
+    width: 0;
+    height: 3px; 
+    background-color: #FF6636;
+    transition: width 0.3s ease; 
+  }
+  
+  .menu a:hover {
+    color: #FFFFFF; /
+  }
+  
+  .menu a:hover::before {
+    width: 100%; 
+  }
+  
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropbtn {
+    background-color: #1D2026;
+    color: #A1A5B3;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .dropbtn:hover {
+    background-color: #FF6636;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0; 
+    background-color: #A1A5B3;
+    min-width: 150px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #000000;
+    opacity: 0;
+  }
+  
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  /* Second Nav bar  */
+
+  #navbar2 {
+    width: 1920px;
+    height: 96px;
+    justify-content: space-between;
+    padding-top: 24px;
+    padding-right: 32px;
+    padding-bottom: 24px;
+    padding-left: 32px;
+    color: #FFFFFF;
+    background-color: #FFFFFF;
+    
+  }
+
+  #navbar2 .container-fluid .navbar-brand img {
+    width: 153px;
+    height: 40px;
+    gap: 8px;
+  }
+
+#Browse {
+    width: 200px;
+    height: 48px;
+    border: 1px;
+
+}
+
+.navbar #navbar2 {
+    display: flex;
+    align-items: center;
+  }
+  
+  #Browse {
+    margin-left: 2px;
+    width: 200px;
+    height: 48px;
+  }
+
+#searchNav {
+    width: 424px;
+    height: 48px;
+    border: 1px;
+}
+
+#navbar2 .container-fluid {
+    display: flex;
+    justify-content: space-between;  
+    align-items: center;  
+}
+
+#navbar2 .navbar-brand {
+    display: flex;
+    align-items: center;  
+}
+
+#Browse {
+    margin-left: 20px;  
+    margin-right: 20px; 
+    position: absolute;
+    left: 250px;
+}
+
+#navbar2 .form-inline {
+    display: flex;
+    justify-content: center;  
+}
+
+#searchNav {
+    width: 250px;  
+}
+
+#icons {
+    width: 24px;
+    height: 24px;
+    color: #1D2026;
+    display: flex;
+    justify-content: space-between;  
+    align-items: center;
+    float: right;
+    gap: 10px;
+    right: 450px;
+    top: 40px;
+    position: absolute;
+  }
+
+  #icons i {
+    font-size: 1.5rem; 
+  }
+
+
+#navbar2 {
+    padding: 10px 20px; 
+}
+
+#navbar2 .container-fluid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+#navbar2 .d-flex {
+    display: flex;
+    align-items: center;
+}
+
+#Browse {
+    margin-right: 10px; 
+}
+
+
+#searchNav {
+    width: 250px; 
+    padding: 8px 10px;
+}
+
+
+#icons i {
+    margin-right: 20px; 
+    font-size: 24px; 
+    cursor: pointer; 
+}
+
+#navbar2 .btn {
+    margin-left: 10px; 
+}
+
+
+#navbar2 .navbar-brand img {
+    max-height: 40px; 
+    max-width: 100%;
+}
+
+#sign {
+    width: 168px;
+    height: 48px;
+    padding-right: 24px;
+    padding-left: 24px;
+    gap: 12px;
+    border-radius: 1px;
+    background-color: #FFEEE8;
+    border-color: #FFEEE8;
+    color: #FF6636;
+    font-weight: 400;
+}
+
+#create {
+    width: 100px;
+    height: 48px;
+    border-radius: 1px;
+    background-color: #FF6636;
+    border-color: #FF6636;
+    color: #FFFFFF;
+}
+ 
+/* ------------------------ */
+
+#Banner {
+    width: 1920px;
+    height: 548px;
+    top: 14px;
+}
+#BannerPic {
+    width: 900px;
+    height: 548px;
+    left: 1020px;
+    float: right;
+    background: linear-gradient(180deg, rgba(240, 242, 245, 0) 0.02%, #F0F2F5 220.8%);
+}
+
+
+#Banner h1 {
+    font-weight: 600;
+    font-size: 72px;
+    line-height: 74px;
+    letter-spacing: -2%;
+    padding-left: 150px;
+    padding-top: 30px;
+    color: #1D2026;
+    width: 648px;
+    height: 148px;
+}
+
+
+#Banner p {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    color: #4E5566;
+    padding-left: 150px;
+    padding-top: 128px;
+
+}
+ #Banner1 {
+    width: 198px;
+    height: 56px;
+    border-radius: 1px;
+    background-color: #FF6636;
+    border-color: #FF6636;
+    color: #FFFFFF;
+    padding-right: 32px;
+    padding-left: 32px;
+    gap: 12px;
+ }
+/* ------------------------------------- */
+
+#Cat {
+    width: 1920px;
+    height: 680px;
+    top: 690px;
+    padding-top: 80px;
+    padding-right: 300px;
+    padding-bottom: 80px;
+    padding-left: 300px;
+    gap: 40px;
+}
+
+#Cat h1 {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: -1%;
+    text-align: center;
+
+}
+
+.col {
+    width: 312px;
+    height: 104px;
+    padding: 20px;
+    gap: 20px;
+}
+
+
+
+.row {
+    width: 1300px;
+    height: 5px;
+    gap: 24px;
+    justify-content: center;
+    padding-left: 100px;
+}
+
+.Contin {
+    justify-content: center;
+    margin-left: 100px;
+}
+
+#Cat p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+}
+
+#Cat p a {
+    text-decoration: none;
+    color: #FF6636;
+}
+
+/* --------------------------------------- */
+#Selling {
+    width: 1920px;
+    height: 1179px;
+    top: 1370px;
+    padding-top: 80px;
+    padding-right: 300px;
+    padding-bottom: 320px;
+    padding-left: 300px;
+    gap: 40px;
+    color: #A1A5B3;
+}
+
